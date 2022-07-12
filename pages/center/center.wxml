@@ -1,0 +1,16 @@
+<view class="userInfo"  style="background: #2196F3;">
+  <image src="{{userInfo.avatarUrl}}" bindtap="handleTap" mode="aspectFill"></image>
+  <!-- <view style="color: white;">{{userInfo.nickName}}</view> -->
+  <view style="color: white;">冰淇淋</view>
+</view>
+
+<mp-cells ext-class="my-cells">
+  <mp-cell value="完善信息">
+    <mp-icon slot="icon" type="field" icon="me" color="#F0605B" size="{{25}}"></mp-icon>
+    <mp-icon slot="icon" type="field" icon="arrow"  size="{{10}}" slot="footer"></mp-icon>
+  </mp-cell>
+  <mp-cell value="个性设置">
+    <mp-icon slot="icon" type="field" icon="like" color="#F0605B" size="{{25}}"></mp-icon>
+    <mp-icon slot="icon" type="field" icon="arrow"  size="{{10}}" slot="footer"></mp-icon>
+  </mp-cell>
+</mp-cells>

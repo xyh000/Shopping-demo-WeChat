@@ -1,0 +1,20 @@
+/* pages/home/home.wxss */
+image{
+  width: 100%;
+  
+}
+
+swiper{
+  /* iphone6上 1rpx = 0.5px */
+  height:297rpx ;
+}
+
+.goodbox{
+  padding: 20rpx;
+  overflow: hidden;
+}
+
+.goodbox image{
+  width: 200rpx;
+  float: left;
+}

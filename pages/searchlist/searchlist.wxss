@@ -1,0 +1,28 @@
+/* pages/searchlist/searchlist.wxss */
+.goodcontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.good{
+  width: 50%;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.good image{
+  width: 100%;
+}
+
+.sortlist{
+  display: flex;
+  width: 100%;
+}
+
+.sortlist  view{
+  flex: 1;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+
